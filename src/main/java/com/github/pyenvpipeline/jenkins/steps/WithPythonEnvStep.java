@@ -134,7 +134,7 @@ public class WithPythonEnvStep extends Step implements Serializable{
             LOGGER.info("Creating virtualenv at " + fullQualifiedDirectoryName + " using Python installation " +
                     "found at " + baseToolDirectory);
 
-            String commandPath = "";
+            String commandPath = baseToolDirectory;
 
             if (!baseToolDirectory.equals("")) {
 

@@ -44,4 +44,5 @@ public class WithPythonEnvTest {
         WithPythonEnvStep rawStep = new WithPythonEnvStep("python3");
         Assert.assertEquals(".pyenv-python3", rawStep.getRelativePythonEnvDirectory());
     }
+
 }
